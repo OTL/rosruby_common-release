@@ -1,0 +1,12 @@
+Source: ros-hydro-rosruby-actionlib
+Section: misc
+Priority: extra
+Maintainer: Takashi Ogura <t.ogura@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-rosruby
+Homepage: http://ros.org/wiki/rosruby_actionlib
+Standards-Version: 3.9.2
+
+Package: ros-hydro-rosruby-actionlib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-rosruby
+Description: actionlib for rosruby.
