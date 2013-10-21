@@ -1,0 +1,21 @@
+ros-hydro-rosruby-tutorials (0.1.3-0quantal) quantal; urgency=high
+
+  * remove normal add_service_files and use rosruby_generate_messages.
+    build farm fails to add_service_files because of
+    import genrb.generator fails..
+
+ -- Takashi Ogura <t.ogura@gmail.com>  Sun, 20 Oct 2013 15:00:00 -0000
+
+ros-hydro-rosruby-tutorials (0.1.2-0quantal) quantal; urgency=high
+
+  * update rosruby_actionlib
+
+ -- Takashi Ogura <t.ogura@gmail.com>  Sat, 19 Oct 2013 15:00:00 -0000
+
+ros-hydro-rosruby-tutorials (0.1.1-0quantal) quantal; urgency=high
+
+  * moved from rosruby.
+
+ -- Takashi Ogura <t.ogura@gmail.com>  Fri, 18 Oct 2013 15:00:00 -0000
+
+
